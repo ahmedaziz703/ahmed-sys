@@ -31,4 +31,5 @@ RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 EXPOSE 8000
 
 # Run Laravel
-CMD php artisan serve --host 0.0.0.0 --port $PORT
+# Run Laravel with migrations + seed
+CMD sh -c "php artisan migrate --force --seed && php artisan serve --host 0.0.0.0 --port \$PORT"
