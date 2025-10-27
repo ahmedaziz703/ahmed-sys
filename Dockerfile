@@ -22,9 +22,6 @@ WORKDIR /var/www/html
 
 COPY . .
 
-# Copy .env.example to .env
-RUN cp .env.example .env
-
 # Set permissions
 RUN chown -R www-data:www-data storage bootstrap/cache
 RUN chmod -R 775 storage bootstrap/cache
@@ -35,11 +32,8 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 # Install all PHP dependencies
 RUN composer install --no-interaction --ignore-platform-reqs --optimize-autoloader
 
-# Generate Laravel key
-RUN php artisan key:generate
+
 
 EXPOSE 8000
 # Clear and cache configuration
-CMD php artisan config:clear && \
-    php artisan cache:clear && \
-    php artisan serve --host 0.0.0.0 --port 8000
+CMD php artisan serve --host 0.0.0.0 --port 8000
