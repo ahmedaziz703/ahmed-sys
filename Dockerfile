@@ -22,12 +22,15 @@ WORKDIR /var/www/html
 
 COPY . .
 
-# Install Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+# Copy .env.example to .env
+RUN cp .env.example .env
 
 # Set permissions
 RUN chown -R www-data:www-data storage bootstrap/cache
 RUN chmod -R 775 storage bootstrap/cache
+
+# Install Composer
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 # Install all PHP dependencies
 RUN composer install --no-interaction --ignore-platform-reqs --optimize-autoloader
