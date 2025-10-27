@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+/* Z-index katmanları */
+.fi-modal-window {
+    z-index: 99999 !important;
+}
+
+.fi-modal-overlay {
+    z-index: 99998 !important;
+}
+
+/* Header ve sidebar z-index ayarları */
+.header-main {
+    z-index: 40 !important;
+    transition: margin-right 0.3s ease-in-out;
+    width: calc(100% - 16rem); /* 64px = 16rem (sidebar genişliği) */
+}
+
+.sidebar-main {
+    z-index: 30 !important;
+    width: 16rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+    .header-main {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .sidebar-main {
+        transform: translateX(100%);
+    }
+    
+    .sidebar-main.show {
+        transform: translateX(0);
+    }
+}
+
+/* Filament modal içeriği için z-index ayarları */
+.fi-modal-content {
+    z-index: 99999 !important;
+}
+
+/* Dropdown ve diğer floating elementler için */
+.fi-dropdown-panel {
+    z-index: 99997 !important;
+}
+
+/* Responsive tablo ayarları */
+.fi-ta-content {
+    @apply w-full overflow-x-auto;
+}
+
+.fi-ta-table {
+    @apply min-w-full table-auto;
+}
+
+@media (max-width: 1024px) {
+    .fi-ta-content {
+        margin: 0 -1rem;  /* Negatif margin ile full-width görünüm */
+        padding: 0 1rem;
+    }
+    
+    .fi-ta-table {
+        @apply w-full;
+    }
+}
+
+/* Sidebar mobile ayarları */
+@media (max-width: 1024px) {
+    .sidebar-main {
+        @apply fixed right-0 top-0;
+    }
+    
+    .header-main {
+        @apply w-full right-0;
+    }
+}
+
+/* Scrollbar stilleri */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #CBD5E1 transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px; /* Daha ince scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #E5E7EB;
+    border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #E5E7EB;
+}
+
+/* Sidebar özel scrollbar stilleri */
+.sidebar-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #E5E7EB transparent;
+}
+
+.sidebar-scroll::-webkit-scrollbar {
+    width: 3px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+    background-color: #E5E7EB;
+    border-radius: 3px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: #E5E7EB;
+}
+
+/* Sidebar hover الحالهunda scrollbar görünürlüğü */
+.sidebar-scroll {
+    scrollbar-width: none; /* Firefox için scrollbar'ı gizle */
+}
+
+.sidebar-scroll::-webkit-scrollbar {
+    display: none; /* Webkit tarayıcılar için scrollbar'ı gizle */
+}
+
+.sidebar-scroll:hover {
+    scrollbar-width: thin; /* Firefox için hover'da göster */
+}
+
+.sidebar-scroll:hover::-webkit-scrollbar {
+    display: block; /* Webkit tarayıcılar için hover'da göster */
+}
+
+/* Sürükle-bırak stilleri */
+.gu-mirror {
+    position: fixed !important;
+    margin: 0 !important;
+    z-index: 9999 !important;
+    opacity: 0.8;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    border: 1px solid #e5e7eb;
+}
+
+.gu-hide {
+    display: none !important;
+}
+
+.gu-unselectable {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+.gu-transit {
+    opacity: 0.2;
+}
+
+/* Toggle sütunlarını küçültme */
+.compact-toggle .fi-ta-toggle {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+/* Toggle düğmesinin kendisini küçültme */
+.compact-toggle .fi-toggle {
+    --toggle-width: 2.5rem !important;
+    --toggle-height: 1.25rem !important;
+}
+
+/* Toggle içindeki yuvarlak düğmeyi küçültme */
+.compact-toggle .fi-toggle-dot {
+    --toggle-dot-size: 0.875rem !important;
+}
+
+/* Modal genişliği için özel class */
+.filament-modal-wide {
+    width: 64rem !important; /* 5xl = 64rem */
+    max-width: 64rem !important;
+}
+
+.fi-modal-7xl .fi-modal-window {
+    width: 80rem !important;  /* 7xl = 80rem */
+    max-width: 80rem !important;
+}
