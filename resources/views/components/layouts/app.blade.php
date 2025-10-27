@@ -59,8 +59,8 @@
             </div>
         </main>
         
-        {{-- AI Chat Widget --}}
-        {{-- <livewire:ai.chat-widget /> --}}
+        
+         <livewire:ai.chat-widget /> 
     @else
         {{ $slot }}
     @endauth
