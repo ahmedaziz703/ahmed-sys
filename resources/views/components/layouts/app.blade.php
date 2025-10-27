@@ -60,7 +60,7 @@
         </main>
         
         
-         <livewire:AI.ChatWidget /> 
+         <livewire:ai.chat-widget />
     @else
         {{ $slot }}
     @endauth
