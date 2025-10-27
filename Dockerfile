@@ -1,14 +1,15 @@
 # Base image with PHP
 FROM php:8.2-fpm
 
-# Install dependencies
+# Install system dependencies
 RUN apt-get update && apt-get install -y \
     git \
     unzip \
     libzip-dev \
     libonig-dev \
     curl \
-    && docker-php-ext-install pdo_mysql mbstring zip
+    libpq-dev \
+    && docker-php-ext-install pdo_pgsql mbstring zip bcmath
 
 # Set working directory
 WORKDIR /var/www/html
