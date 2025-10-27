@@ -40,7 +40,7 @@ RUN php artisan key:generate
 
 EXPOSE 8000
 # Clear and cache configuration
-RUN php artisan config:clear && php artisan cache:clear && php artisan config:cache
-
-# Run Laravel with migrations + seed
-CMD php artisan migrate --force --seed && php artisan serve --host 0.0.0.0 --port 8000
+CMD php artisan config:clear && \
+    php artisan cache:clear && \
+    php artisan migrate --force --seed && \
+    php artisan serve --host 0.0.0.0 --port 8000
