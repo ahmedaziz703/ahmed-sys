@@ -149,8 +149,8 @@
 ### 1️⃣ استنساخ المشروع
 
 ```bash
-git clone https://github.com/mehmetmasa/finova.git
-cd finova
+git clone https://github.com/ahmedaziz703/ahmed-sys.git
+cd ahmed-sys
 ```
 
 ### 2️⃣ تثبيت التبعيات الخاصة بـ PHP
@@ -287,7 +287,7 @@ TELEGRAM_CHAT_ID=your_chat_id
 
 1. قم بعمل **Fork** للمستودع
 2. انسخه محليًا:
-   `git clone https://github.com/YOUR_USERNAME/finova.git`
+   `git clone https://github.com/ahmedaziz703/ahmed-sys.git`
 3. أنشئ فرعًا جديدًا:
    `git checkout -b feature/new-feature`
 4. نفّذ التعديلات
