@@ -513,7 +513,7 @@ x-bind:class="{'translate-x-0': sidebarOpen, 'translate-x-full': !sidebarOpen}"
                     </li>
                     @endcan
                     <li>
-                        <a href="https://wa.me/908505324527" 
+                        <a href="https://wa.me/967775119035" 
                            target="_blank"
                            class="flex items-center p-2 pl-11 w-full text-base font-normal rounded-lg hover:bg-gray-100"
                            style="color: #3E82F8">
