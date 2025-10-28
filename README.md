@@ -1,312 +1,325 @@
-# 💰 Finova - Modern Financial Management Platform
+# 💰 Finova - منصة إدارة مالية حديثة
 
-[![PHP Version](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)
-[![Laravel Version](https://img.shields.io/badge/Laravel-11.x-red.svg)](https://laravel.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![GitHub Stars](https://img.shields.io/github/stars/mehmetmasa/finova?style=social)](https://github.com/mehmetmasa/finova)
+[![إصدار PHP](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)
+[![إصدار Laravel](https://img.shields.io/badge/Laravel-11.x-red.svg)](https://laravel.com)
+[![الترخيص: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![نرحب بالمساهمات](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![نجوم GitHub](https://img.shields.io/github/stars/mehmetmasa/finova?style=social)](https://github.com/mehmetmasa/finova)
 
-**Finova** is an open-source, AI-powered financial management platform built with Laravel. It combines comprehensive financial tracking, CRM, project management, and intelligent AI assistance in one powerful system.
+**Finova** هي منصة مفتوحة المصدر لإدارة المال مدعومة بالذكاء الاصطناعي، مبنية بإطار **Laravel**.
+تجمع بين إدارة مالية شاملة، إدارة عملاء، إدارة مشاريع، ومساعد ذكي في نظام واحد متكامل.
 
-> 🚀 **Perfect for:** Freelancers, Small Businesses, Agencies, and Financial Professionals
+> 🚀 **مثالية لـ:** المستقلين، الشركات الصغيرة، الوكالات، والمتخصصين الماليين.
 
-## 🎯 Live Demo
+---
 
-Try it out without installation:
-- **Demo URL:** [https://finans.mikpa.com](https://finans.mikpa.com)
-- **Admin Login:** Use demo credentials on the login page
-- **Employee Login:** Test employee role features
+## 🎯 المعاينة الحية
 
-> 💡 **Note:** Demo resets every 30 minutes.
+جرّب النظام مباشرة دون تثبيت:
 
+* **رابط المعاينة:** [https://ahmed-sys.onrender.com](https://ahmed-sys.onrender.com)
+* **بيانات الدخول التجريبية:** موجودة في صفحة تسجيل الدخول.
+* **حساب الموظف:** لتجربة صلاحيات الموظفين.
 
-## ✨ Features
+> 💡 **ملاحظة:** يتم إعادة تعيين بيانات المعاينة كل 30 دقيقة.
 
-### 💳 **Financial Management**
-- [x] **Multi-Currency Support** - Track finances in multiple currencies with automatic conversion
-- [x] **Account Management** - Support for bank accounts, credit cards, crypto wallets, virtual POS, and cash
-- [x] **Transaction Tracking** - Comprehensive income, expense, and transfer management
-- [x] **Installment & Subscription** - Automatic recurring transaction management
-- [x] **Tax & Withholding** - Built-in tax calculation and withholding management
+---
 
-### 👥 **Customer & Supplier Management**
-- [x] **Customer Management** - Complete customer database with contact information and history
-- [x] **Supplier Management** - Supplier tracking with debt and payment management
-- [x] **Lead Management** - Lead tracking and conversion system
-- [x] **Customer Agreements** - Contract and agreement management
-- [x] **Customer Credentials** - Secure storage of sensitive customer information
+## ✨ المميزات
 
-### 🏗️ **Project Management**
-- [x] **Project Tracking** - Create and manage projects with boards and task lists
-- [x] **Task Management** - Kanban-style task management with labels and assignments
+### 💳 **إدارة مالية**
 
-### 📊 **Planning & Analytics**
-- [x] **Savings Plans** - Goal-based savings tracking
-- [x] **Investment Plans** - Investment portfolio management
-- [x] **Debt Management** - Loan and debt tracking with payment schedules
-- [x] **Commission System** - Agent commission tracking and management
+* [x] دعم العملات المتعددة مع التحويل التلقائي
+* [x] إدارة الحسابات البنكية، البطاقات، المحافظ الرقمية، والنقد
+* [x] تتبع الدخل والمصروفات والتحويلات
+* [x] إدارة الأقساط والاشتراكات الدورية
+* [x] حساب الضرائب والاقتطاعات تلقائيًا
 
-### 🤖 **AI Integration**
-- [x] **AI Assistant** - Integrated AI chat assistant for financial insights
-- [x] **Document Analysis** - AI-powered document processing and analysis
-- [x] **Smart Suggestions** - AI recommendations for financial decisions
-- [x] **Multi-Provider Support** - OpenAI and Google Gemini integration
+### 👥 **إدارة العملاء والموردين**
 
-### 🔐 **User Management & Security**
-- [x] **Role-Based Access Control** - Comprehensive role and permission management system
-- [x] **Custom Roles** - Create and manage custom roles with specific permissions
-- [x] **Permission Management** - Granular permission control for all system features
-- [x] **User Management** - Create, edit, and manage team members with role assignments
+* [x] قاعدة بيانات متكاملة للعملاء مع السجل والتفاصيل
+* [x] إدارة الموردين والمديونيات والمدفوعات
+* [x] إدارة العملاء المحتملين وتحويلهم لعملاء فعليين
+* [x] إدارة العقود والاتفاقيات
+* [x] حفظ بيانات العملاء الحساسة بشكل آمن
 
-### 📱 **Modern UI/UX**
-- [x] **Livewire Components** - Reactive, modern user interface
-- [x] **Responsive Design** - Mobile-first responsive design
-- [x] **Real-time Updates** - Live data updates and notifications
+### 🏗️ **إدارة المشاريع**
 
-## 🚀 Roadmap & Upcoming Features
+* [x] إنشاء وتتبع المشاريع باستخدام لوحات عمل مرنة
+* [x] إدارة المهام بطريقة كانبان مع تسميات وتعيينات
 
-### 🔶 Enhanced Multi-Language Support
-- [ ] **Complete Translation System** - Full translation coverage for all UI elements
-- [ ] **Dynamic Language Switching** - Change language without page refresh
-- [ ] **RTL Support** - Right-to-left language support (Arabic, Hebrew)
-- [ ] **Custom Translation Management** - Admin panel for managing translations
+### 📊 **التخطيط والتحليل**
 
-### 🔶 Advanced Currency Management
-- [ ] **Default Currency Selection** - Set preferred currency
-- [ ] **Currency Rate Auto-Update** - Automatic exchange rate updates from APIs
-- [ ] **Custom Exchange Rates** - Manual override for specific rates
-- [ ] **Currency Formatting** - Localized number and currency formatting
+* [x] خطط ادخار بناءً على الأهداف
+* [x] إدارة الاستثمارات والمحافظ المالية
+* [x] إدارة القروض والمديونيات مع جدول السداد
+* [x] نظام العمولات للوكلاء والمندوبين
 
-### 🔶 Automated Setup Wizard
-- [ ] **One-Click Installation** - Streamlined setup process
-- [ ] **Database Configuration** - Interactive database setup
-- [ ] **Demo Data Installation** - Optional sample data loading
-- [ ] **AI Configuration** - Easy API key setup for AI features
-- [ ] **Email & Notification Setup** - Configure SMTP and notifications
+### 🤖 **تكامل الذكاء الاصطناعي**
 
-> 💡 **Want to contribute?** Check out our [Contributing Guide](#-contributing) and pick a feature to work on!
+* [x] مساعد ذكي مدمج لتحليل البيانات المالية
+* [x] تحليل المستندات باستخدام الذكاء الاصطناعي
+* [x] اقتراحات مالية ذكية
+* [x] دعم مزودي خدمات متعددين مثل OpenAI وGoogle Gemini
 
-## 🛠️ Technology Stack
+### 🔐 **إدارة المستخدمين والأمان**
 
-### Backend
-- **Laravel 11** - PHP web framework
-- **MySQL/PostgreSQL** - Database
-- **Livewire 3** - Reactive components
-- **Filament 3** - Admin panel
+* [x] نظام صلاحيات وأدوار متكامل
+* [x] إنشاء أدوار مخصصة مع صلاحيات دقيقة
+* [x] إدارة المستخدمين والفِرق بسهولة
 
-### Frontend
-- **Tailwind CSS** - Utility-first CSS framework
-- **Alpine.js** - Lightweight JavaScript framework
-- **Chart.js** - Data visualization
-- **TipTap Editor** - Rich text editing
+### 📱 **واجهة حديثة**
 
-### AI & External Services
-- **OpenAI API** - Chat and document analysis
-- **Google Gemini** - Alternative AI provider
-- **Telegram Bot API** - Notification system
+* [x] مكونات Livewire تفاعلية
+* [x] تصميم متجاوب يناسب الهواتف
+* [x] تحديثات لحظية وإشعارات فورية
 
-### Development Tools
-- **Vite** - Fast build tool
-- **Pint** - PHP code style fixer
-- **PHPStan** - Static analysis
-- **Pest** - PHP testing framework
+---
 
-## 📋 Requirements
+## 🚀 خريطة التطوير
 
-- **PHP** 8.2 or higher
-- **Composer** - PHP dependency manager
-- **Node.js** 18.x or higher
-- **NPM** or **Yarn** - JavaScript dependency manager
-- **MySQL** 5.7+ or **PostgreSQL** 10+
-- **Redis** (optional, for caching and queues)
+### 🔶 دعم لغات متعددة
 
-## 🚀 Installation
+* [ ] ترجمة كاملة لجميع عناصر النظام
+* [ ] تبديل اللغة دون إعادة تحميل الصفحة
+* [ ] دعم اتجاه الكتابة من اليمين لليسار (العربية)
+* [ ] إدارة الترجمة من لوحة التحكم
 
-### 1. Clone the Repository
+### 🔶 إدارة العملات المتقدمة
+
+* [ ] اختيار العملة الافتراضية
+* [ ] تحديث تلقائي لأسعار الصرف
+* [ ] إدخال أسعار صرف مخصصة
+* [ ] تنسيق الأرقام والعملات حسب اللغة
+
+### 🔶 معالج إعداد تلقائي
+
+* [ ] تثبيت بنقرة واحدة
+* [ ] إعداد قاعدة البيانات بسهولة
+* [ ] إدخال بيانات تجريبية اختيارية
+* [ ] إعداد مفاتيح واجهات الذكاء الاصطناعي
+* [ ] إعداد البريد والإشعارات
+
+---
+
+## 🛠️ التقنيات المستخدمة
+
+### الواجهة الخلفية (Backend)
+
+* **Laravel 11**
+* **MySQL / PostgreSQL**
+* **Livewire 3**
+* **Filament 3**
+
+### الواجهة الأمامية (Frontend)
+
+* **Tailwind CSS**
+* **Alpine.js**
+* **Chart.js**
+* **TipTap Editor**
+
+### الذكاء الاصطناعي والخدمات الخارجية
+
+* **OpenAI API**
+* **Google Gemini**
+* **Telegram Bot API**
+
+### أدوات التطوير
+
+* **Vite**
+* **Pint**
+* **PHPStan**
+* **Pest**
+
+---
+
+## 📋 المتطلبات
+
+* **PHP** 8.2 أو أعلى
+* **Composer**
+* **Node.js** 18 أو أعلى
+* **NPM** أو **Yarn**
+* **MySQL** 5.7+ أو **PostgreSQL** 10+
+* **Redis** (اختياري)
+
+---
+
+## 🚀 خطوات التثبيت
+
+### 1️⃣ استنساخ المشروع
+
 ```bash
 git clone https://github.com/mehmetmasa/finova.git
 cd finova
 ```
 
-### 2. Install PHP Dependencies
+### 2️⃣ تثبيت التبعيات الخاصة بـ PHP
+
 ```bash
 composer install
 ```
 
-### 3. Install JavaScript Dependencies
+### 3️⃣ تثبيت تبعيات JavaScript
+
 ```bash
 npm install
-# or
+# أو
 yarn install
 ```
 
-### 4. Environment Configuration
+### 4️⃣ إعداد ملف البيئة
+
 ```bash
 cp .env.example .env
 ```
 
-Edit the `.env` file and configure:
-- Database credentials (DB_DATABASE, DB_USERNAME, DB_PASSWORD)
-- Mail configuration (for notifications)
-- AI API keys (OpenAI, Gemini)
-- Application settings
+ثم عدّل بيانات قاعدة البيانات والبريد ومفاتيح الذكاء الاصطناعي في الملف `.env`
 
-### 5. Generate Application Key
+### 5️⃣ توليد مفتاح التطبيق
+
 ```bash
 php artisan key:generate
 ```
 
-### 6. Database Setup
+### 6️⃣ إعداد قاعدة البيانات
+
 ```bash
 php artisan migrate --seed
 ```
 
-This will create all database tables and populate with sample data.
+### 7️⃣ ربط التخزين
 
-### 7. Storage Setup
 ```bash
 php artisan storage:link
 ```
 
-### 8. Build Frontend Assets
+### 8️⃣ بناء واجهة المستخدم
+
 ```bash
 npm run build
-# For development
+# أثناء التطوير:
 npm run dev
 ```
 
-### 9. Start the Application
+### 9️⃣ تشغيل التطبيق
+
 ```bash
 php artisan serve
 ```
 
-The application will be available at `http://localhost:8000`
+افتح المتصفح على:
+`http://localhost:8000`
 
-## 🔑 Default Credentials
+---
 
-**Admin User:**
-- Email: `admin@admin.com`
-- Password: `admin123`
+## 🔑 بيانات الدخول الافتراضية
 
-## 📖 Usage
+**المشرف:**
 
-### Dashboard
-- Overview of financial status
-- Recent transactions and activities
-- Quick action buttons for common tasks
+* البريد: `admin@admin.com`
+* كلمة المرور: `admin123`
 
-### Financial Management
-- **Transactions**: Add, edit, and categorize financial transactions
-- **Accounts**: Manage different account types and balances
-- **Categories**: Organize transactions with custom categories
-- **Budgets**: Set and track spending limits
+---
 
-### Customer Management
-- **Customers**: Manage customer information and history
-- **Leads**: Track potential customers and conversion
-- **Agreements**: Manage contracts and recurring agreements
+## 📖 الاستخدام
 
-### Project Management
-- **Projects**: Create and manage projects
-- **Boards**: Kanban-style project boards
-- **Tasks**: Task management with assignments and due dates
+### لوحة التحكم
 
-### AI Assistant
-- Access AI chat assistant for financial insights
-- Upload and analyze documents
-- Get AI-powered recommendations
+* نظرة عامة على الحالة المالية
+* أحدث المعاملات
+* أزرار للوصول السريع للعمليات الشائعة
 
-## 🔧 Configuration
+### إدارة المال
 
-### AI Integration Setup
-1. Get API keys from [OpenAI](https://platform.openai.com) or [Google AI](https://ai.google.dev)
-2. Add keys to `.env` file:
+* إضافة وتعديل وتصنيف المعاملات
+* إدارة الحسابات
+* إنشاء الفئات المالية
+* تتبع الميزانيات
+
+### إدارة العملاء
+
+* معلومات وسجل العملاء
+* العملاء المحتملين
+* العقود والاتفاقيات
+
+### إدارة المشاريع
+
+* إنشاء وتتبع المشاريع والمهام
+
+### المساعد الذكي
+
+* دردشة مالية ذكية
+* تحليل المستندات
+* اقتراحات مالية فورية
+
+---
+
+## 🔧 الإعدادات الإضافية
+
+### إعداد الذكاء الاصطناعي
+
+1. احصل على مفاتيح من [OpenAI](https://platform.openai.com) أو [Google AI](https://ai.google.dev)
+2. أضفها إلى ملف `.env`:
+
 ```env
 OPENAI_API_KEY=your_openai_key
 GEMINI_API_KEY=your_gemini_key
 ```
 
-### Telegram Notifications (Optional)
-1. Create a Telegram bot via [@BotFather](https://t.me/botfather)
-2. Add bot token to `.env`:
+### إشعارات تيليجرام (اختيارية)
+
+1. أنشئ بوت من خلال [@BotFather](https://t.me/botfather)
+2. أضف الرموز إلى `.env`:
+
 ```env
 TELEGRAM_BOT_TOKEN=your_bot_token
 TELEGRAM_CHAT_ID=your_chat_id
 ```
 
-## 🤝 Contributing
+---
 
-**We love contributions!** Whether it's bug fixes, new features, or documentation improvements, all contributions are welcome!
+## 🤝 المساهمة في المشروع
 
-### How to Contribute
+نرحب بجميع المساهمات ❤️
+سواء بإصلاح الأخطاء أو إضافة مميزات جديدة أو تحسين التوثيق.
 
-1. **Fork** the repository
-2. **Clone** your fork: `git clone https://github.com/YOUR_USERNAME/finova.git`
-3. **Create** a feature branch: `git checkout -b feature/amazing-feature`
-4. **Make** your changes
-5. **Commit** your changes: `git commit -m 'Add amazing feature'`
-6. **Push** to the branch: `git push origin feature/amazing-feature`
-7. **Open** a Pull Request
+### طريقة المساهمة
 
-### Development Guidelines
-- ✅ Follow **PSR-12** coding standards
-- ✅ Use **meaningful commit messages**
-- ✅ Keep PRs **focused and small**
-- ✅ Add **comments** for complex logic
+1. قم بعمل **Fork** للمستودع
+2. انسخه محليًا:
+   `git clone https://github.com/YOUR_USERNAME/finova.git`
+3. أنشئ فرعًا جديدًا:
+   `git checkout -b feature/new-feature`
+4. نفّذ التعديلات
+5. ارفعها إلى GitHub
+6. افتح **Pull Request**
 
-### Good First Issues
+---
 
-Look for issues labeled with:
-- 🟢 `good first issue` - Perfect for first-time contributors
-- 🟡 `help wanted` - We need your help!
-- 🔵 `documentation` - Help improve our docs
+## 📄 الترخيص
 
-### Questions?
+هذا المشروع مرخص تحت رخصة **MIT** — انظر ملف [LICENSE](LICENSE) لمزيد من التفاصيل.
 
-- 💬 Open a [Discussion](https://github.com/mehmetmasa/finova/discussions)
-- 🐛 Found a bug? [Open an Issue](https://github.com/mehmetmasa/finova/issues)
-- 💡 Have an idea? [Create a Feature Request](https://github.com/mehmetmasa/finova/issues/new)
+---
 
-## 📄 License
+## 🙏 الشكر والتقدير
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Laravel](https://laravel.com) - The PHP framework
-- [Livewire](https://laravel-livewire.com) - Reactive components
-- [Filament](https://filamentphp.com) - Admin panel
-- [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework
-- [Alpine.js](https://alpinejs.dev) - Lightweight JavaScript framework
-- [OpenAI](https://openai.com) - AI integration
-- [Google Gemini](https://ai.google.dev) - AI integration
-
-
-## 💬 Community & Support
-
-### Get Help
-
-- 📖 **Documentation:** Check out our [Wiki](https://github.com/mehmetmasa/finova/wiki)
-- 💬 **Discussions:** Join [GitHub Discussions](https://github.com/mehmetmasa/finova/discussions)
-- 🐛 **Bug Reports:** [Open an Issue](https://github.com/mehmetmasa/finova/issues)
-- ⭐ **Feature Requests:** Share your ideas in [Issues](https://github.com/mehmetmasa/finova/issues/new)
-
-### Show Your Support
-
-If you find Finova helpful, please:
-- ⭐ **Star** this repository
-- 🐦 **Share** it on social media
-- 🔗 **Link** to it from your projects
-- 💬 **Tell** others about it
+* [Laravel](https://laravel.com)
+* [Livewire](https://laravel-livewire.com)
+* [Filament](https://filamentphp.com)
+* [Tailwind CSS](https://tailwindcss.com)
+* [Alpine.js](https://alpinejs.dev)
+* [OpenAI](https://openai.com)
+* [Google Gemini](https://ai.google.dev)
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by the open-source community**
+**صُنع بكل ❤️ بواسطة مجتمع البرمجيات مفتوحة المصدر**
 
-*Developed and maintained by [Mikpa](https://mikpa.com)*
+*تم التطوير والصيانة بواسطة [Mikpa](https://Ahmed.com)*
 
-[⬆ Back to Top](#-finova---modern-financial-management-platform)
+[⬆ العودة إلى الأعلى](#-finova---منصة-إدارة-مالية-حديثة)
 
 </div>
