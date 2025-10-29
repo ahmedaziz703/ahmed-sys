@@ -318,7 +318,7 @@ TELEGRAM_CHAT_ID=your_chat_id
 
 **صُنع بكل ❤️ بواسطة مجتمع البرمجيات مفتوحة المصدر**
 
-*تم التطوير والصيانة بواسطة [Ahmed](https://Ahmed.com)*
+*تم التطوير والصيانة بواسطة [Ahmed](https://ahmed-portfolio-dfu2.vercel.app/)*
 
 [⬆ العودة إلى الأعلى](#-finova---منصة-إدارة-مالية-حديثة)
 
