@@ -4,8 +4,6 @@
 [![إصدار Laravel](https://img.shields.io/badge/Laravel-11.x-red.svg)](https://laravel.com)
 [![الترخيص: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![نرحب بالمساهمات](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![نجوم GitHub](https://img.shields.io/github/stars/mehmetmasa/finova?style=social)](https://github.com/mehmetmasa/finova)
-
 **Finova** هي منصة مفتوحة المصدر لإدارة المال مدعومة بالذكاء الاصطناعي، مبنية بإطار **Laravel**.
 تجمع بين إدارة مالية شاملة، إدارة عملاء، إدارة مشاريع، ومساعد ذكي في نظام واحد متكامل.
 
